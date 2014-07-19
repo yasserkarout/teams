@@ -1,0 +1,1 @@
+Slapapp::Application.config.secret_key_base = 'bf698d51a58e73d96d077acc3a9dcc299b155e0c402aa974a4e2433b9776636566916edc8e7e144f25c029a2a0bd0f4f9b637eaacee1e39f9217baeb47ebc21d' 

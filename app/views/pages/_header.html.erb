@@ -1,11 +1,26 @@
 
+<div class="navbar navbar-fixed-top ">
+	<div class="navbar-inner">
+		<div class="container"> 
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</a>
 
+<%= link_to "Teamspace",root_path, class: "brand" %>
 
-<div class="header">
-	<h1>Teams</h1>
-		<ul>
-			<li>Matches</li>
-			<li>Create Match</li>
-			<li>Login</li>
-		</ul>
+<div class="nav-collapse collapse">
+	<ul class="nav pull-right">
+		
+		<li><%= link_to "Create Match","#" %> </li>
+		<li><%= link_to "Edit Profile","#" %> </li>
+		<li><%= link_to "Logout","#" %> </li>
+		
+		<li> <%= link_to "Login","#" %> </li>
+		
+	</ul> 
 </div>
+</div>
+</div>
+</div> 
